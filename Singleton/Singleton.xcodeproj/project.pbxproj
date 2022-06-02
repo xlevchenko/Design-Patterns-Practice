@@ -13,6 +13,7 @@
 		60D380732848BA4D00D2DABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D380712848BA4D00D2DABC /* Main.storyboard */; };
 		60D380752848BA4E00D2DABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D380742848BA4E00D2DABC /* Assets.xcassets */; };
 		60D380782848BA4E00D2DABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D380762848BA4E00D2DABC /* LaunchScreen.storyboard */; };
+		60D380802848BBA700D2DABC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D3807F2848BBA700D2DABC /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		60D380742848BA4E00D2DABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60D380772848BA4E00D2DABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60D380792848BA4E00D2DABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D3807F2848BBA700D2DABC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,19 @@
 				60D3806B2848BA4D00D2DABC /* AppDelegate.swift */,
 				60D3806D2848BA4D00D2DABC /* SceneDelegate.swift */,
 				60D3806F2848BA4D00D2DABC /* ViewController.swift */,
+				60D380812848BBB000D2DABC /* Singleton */,
 				60D380712848BA4D00D2DABC /* Main.storyboard */,
 				60D380742848BA4E00D2DABC /* Assets.xcassets */,
 				60D380762848BA4E00D2DABC /* LaunchScreen.storyboard */,
 				60D380792848BA4E00D2DABC /* Info.plist */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		60D380812848BBB000D2DABC /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				60D3807F2848BBA700D2DABC /* Settings.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -140,6 +151,7 @@
 			files = (
 				60D380702848BA4D00D2DABC /* ViewController.swift in Sources */,
 				60D3806C2848BA4D00D2DABC /* AppDelegate.swift in Sources */,
+				60D380802848BBA700D2DABC /* Settings.swift in Sources */,
 				60D3806E2848BA4D00D2DABC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
